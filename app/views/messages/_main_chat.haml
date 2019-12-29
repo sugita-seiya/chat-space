@@ -1,6 +1,25 @@
 .chat-main
   .main-header
+    .main-header__left-box
+      %h2.main-header__left-box__current-group
+        test
+      %ul.main-header__left-box__member-list
+        member:
+        %li.main-header__left-box__member-list__menber
+          suzuki
+    = link_to "#" do
+      .main-header__edit-btn
+        Edit
+
   .massages
+    .massage
+      .massage__upper-info
+        %p.massage__upper-info__talker
+          だｆｄｆ
+        %p.massage__upper-info__date
+          2019/12/12(sat) 12:45
+      .massage__text
+        こんにちわ
   .form
     %form.new_message
       .input-box
