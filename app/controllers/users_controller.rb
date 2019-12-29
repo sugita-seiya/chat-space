@@ -1,7 +1,4 @@
-class MessagesController < ApplicationController
-  def index
-  end
-
+class UsersController < ApplicationController
   def edit
   end
 
@@ -12,8 +9,6 @@ class MessagesController < ApplicationController
       render :edit
     end
   end
-
-
 
   private
 
